@@ -30,19 +30,15 @@ Library Science for Artists
   - Why not? What do they want?
   - Respect their time
 - Art is a Growing Organism.
-  - Medium is descriptive, not prescriptive:
-    - Theatre/Opera is multimedia art
-    - Writing: Words on paper != spoken words
-    - Phone/Tablet/Laptop & "Device Agnostic"
-  - The artist's job is to create.
-    - There is no medium, only tools and conventions.
-    - Keep on adapting
+  - Medium is descriptive: Theatre/Opera, Writing, Phone/Tablet/Laptop
+  - The artist's job is to create: Use building blocks & keep adapting
 
 Topics
 ------
 
 - Agile Development
   - Start Small: Minimum Viable Artwork
+  - Modular Design: Smallest Narrative Units, Korsakov, OddBooks
   - Launch Early & Often: Get Feedback (Test)
   - Iterate: "Differential Texts"
 - User Testing
