@@ -8,8 +8,8 @@ The [Brakhage Center][bc]’s [lunchtime "media-arts" lecture series][ls],
 Fall 2013,
 under the title *No One Wants Your Media Arts*.
 
-[bc](http://brakhagecenter.com/)
-[ls](http://brakhagecenter.com/?p=932)
+[bc]: http://brakhagecenter.com/
+[ls]: http://brakhagecenter.com/?p=932
 
 Developer == Artist
 -------------------
