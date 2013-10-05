@@ -1,0 +1,11 @@
+// Responsive Art
+// ==============
+
+.responsive-art {
+  .version {
+    @include after('!');
+    @include adjust-font-size-to($medpx);
+    color: color(light);
+    text-transform: uppercase;
+  }
+}

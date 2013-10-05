@@ -342,6 +342,16 @@ label {
   content: "»";
 }
 
+.responsive-art .version {
+  font-size: 1.3125rem;
+  line-height: 1.96875rem;
+  color: #9ba9ab;
+  text-transform: uppercase;
+}
+.responsive-art .version:after {
+  content: "!";
+}
+
 .topics {
   display: -webkit-flexbox;
   display: -ms-flexbox;
