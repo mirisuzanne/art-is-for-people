@@ -1,45 +1,119 @@
 <html>
 <head>
-  <title>Art is For People</title>
+  <meta charset="utf-8" />
+  <title>Art is for People</title>
   <link rel="stylesheet" href="static/css/screen.css" />
 </head>
 <body>
   <input type="radio" id="title" name="section-toggle" autofocus checked />
-  <label data-toggle="section" for="about">
-    <h1>No One Wants Your Media Arts</h1>
-    <p>October 7, 2013</p>
-  </label>
+  <section data-toggle="section" class="title">
+    <div class="slide">
+      <h1>No One Wants Your Media Arts</h1>
+      <p>Brakhage Center — October 7, 2013</p>
+    </div>
+    <nav class="slidenav">
+      <label class="next" for="about">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
 
   <input type="radio" id="about" name="section-toggle" />
-  <label data-toggle="section" for="ux">
-    <h1>Eric<span class="amp">&</span>Meyer</h1>
-  </label>
+  <section data-toggle="section" class="about">
+    <div class="slide">
+      <h1>Eric<span class="amp">&</span>Meyer</h1>
+      <p>Artist == Developer</p>
+    </div>
+    <nav class="slidenav">
+      <label class="prev" for="title">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="ux">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
 
   <input type="radio" id="ux" name="section-toggle" />
-  <label data-toggle="section" for="laws">
-    <h1>User Experience Designer</h1>
-    <p>Artist == Developer</p>
-  </label>
+  <section data-toggle="section" class="ux">
+    <div class="slide">
+      <h1>User Experience Designer</h1>
+      <p>Ideas => Experiences</p>
+    </div>
+    <nav class="slidenav">
+      <label class="prev" for="about">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="laws">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
 
   <input type="radio" id="laws" name="section-toggle" />
-  <label data-toggle="section" for="topics">
-    <h1>Responsive Art <small>beta</small></h1>
-    <ul>
-      <li>Art is for people</li>
-      <li>Art is a growing organism</li>
-    </ul>
-  </label>
+  <section data-toggle="section" class="laws">
+    <div class="slide">
+      <h1>Responsive Art <small>beta</small></h1>
+      <p>Art is for people. Art is a growing organism.</p>
+    </div>
+    <nav class="slidenav">
+      <label class="prev" for="ux">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="topics">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
 
   <input type="radio" id="topics" name="section-toggle" />
-  <section data-toggle="section">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
-    <input type="checkbox" data-toggle="topic">
+  <section data-toggle="section" class="topics">
+
+    <input type="checkbox" id="topic1" class="toggle-topic">
+    <label class="topic" for="topic1">
+      <h2>Process</h2>
+    </label>
+    <input type="checkbox" id="topic2" class="toggle-topic">
+    <label class="topic" for="topic2">
+      <h2>Testing</h2>
+    </label>
+    <input type="checkbox" id="topic3" class="toggle-topic">
+    <label class="topic" for="topic3">
+      <h2>Media</h2>
+    </label>
+    <input type="checkbox" id="topic4" class="toggle-topic">
+    <label class="topic" for="topic4">
+      <h2>Tools</h2>
+    </label>
+    <input type="checkbox" id="topic5" class="toggle-topic">
+    <label class="topic" for="topic5">
+      <h2>Editing</h2>
+    </label>
+    <input type="checkbox" id="topic6" class="toggle-topic">
+    <label class="topic" for="topic6">
+      <h2>Audience</h2>
+    </label>
+    <input type="checkbox" id="topic7" class="toggle-topic">
+    <label class="topic" for="topic7">
+      <h2>Usability</h2>
+    </label>
+    <input type="checkbox" id="topic8" class="toggle-topic">
+    <label class="topic" for="topic8">
+      <h2>Collaboration</h2>
+    </label>
+    <input type="checkbox" id="topic9" class="toggle-topic">
+    <label class="topic" for="topic9">
+      <h2>Everywhere</h2>
+    </label>
+
+    <nav class="slidenav">
+      <label class="prev" for="laws">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="title">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
   </section>
 
 </body>
