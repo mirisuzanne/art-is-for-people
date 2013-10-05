@@ -1,26 +1,16 @@
+// ----------------------------------------------------------------------------
 // Colors
-// ------
 
-$default-hue      : #839496;
+$mid              : hsl(0,0%,50%);
+$blue             : hsl(195,100%,50%);
+$orange           : hsl(24,100%,50%);
+$green            : hsl(75,100%,50%);
+$pink             : hsl(330,100%,50%);
+$red              : hsl(0,100%,50%);
 
-$blue             : hsl(195,85%,50%);
-$orange           : hsl(24,85%,50%);
-$yellow           : hsl(45,85%,50%);
-$green            : hsl(75,65%,50%);
-$pink             : hsl(330,85%,50%);
-$red              : hsl(0,85%,50%);
+// ----------------------------------------------------------------------------
+// Defaults
 
-$base: color(darker);
-$alt: color(dark $blue);
-$accent: color(dark $red);
-$hint: color(95%);
-
-$colors:  'blue'     $blue,
-          'orange'   $orange,
-          'yellow'   $yellow,
-          'green'    $green,
-          'pink'     $pink,
-          'red'      $red,
-          'base'     $base,
-          'alt'      $alt,
-          'accent'   $accent;
+$base             : color(darker);
+$alt              : color($pink);
+$accent           : color($blue dark);

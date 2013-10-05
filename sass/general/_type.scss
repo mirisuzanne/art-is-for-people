@@ -2,9 +2,14 @@
 // ==========
 
 .alt-text { @include gone; }
+.amp { @include amp; }
 
 // Headers
 // -------
+
+%h1, %h2, %h3, %h4, %h5, %h6 {
+  font-weight: bold;
+}
 
 %h1 { @include adjust-font-size-to($xxlargepx); }
 %h2 { @include adjust-font-size-to($xlargepx); }
@@ -12,10 +17,6 @@
 %h4 { @include adjust-font-size-to($medpx); }
 
 %headers {
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-  }
-
   h1 { @extend %h1; }
   h2 { @extend %h2; }
   h3 { @extend %h3; }

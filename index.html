@@ -5,13 +5,42 @@
   <link rel="stylesheet" href="static/css/screen.css" />
 </head>
 <body>
-  <input type="radio" id="title" name="section-toggle" autofocus checked />
-  <section data-toggle="section" class="title">
+  <input type="radio" id="info" name="section-toggle" autofocus checked />
+  <section data-toggle="section" class="info">
 
     <!-- Title Slide -->
     <div class="slide">
-      <h1>No One Wants Your Media Arts</h1>
-      <p>Brakhage Center — October 7, 2013</p>
+      <header class="slidehead">
+        <h1 class="head">No One Wants Your Media Arts</h1>
+        <p class="subhead">
+          <a href="brakhagecenter.com/?p=956">Brakhage Center</a> —
+          October 7, 2013
+        </p>
+      </header>
+
+      <div class="vcard eric">
+        <strong class="fn">Eric A. Meyer</strong>
+        <span class="title">Artist, Developer, Experience Designer</span>
+        <a href="http://eric.andmeyer.com/" class="url" rel="me">eric.andmeyer.com</a>
+        <a href="http://twitter.com/eriiicam/" class="twitter" rel="me">@eriiicam</a></li>
+      </div>
+
+      <p class="colophon">
+        Built on plain old semantic <a href="http://www.w3.org/TR/html5/">HTML5</a>
+        and <a href="http://www.w3.org/TR/css-2010/">CSS3</a>,
+        with help from
+        <a href="http://keyamoon.com/icomoon/">IcoMoon</a>,
+        <a href="http://github.com/Team-Sass/modular-scale">Modular Scale</a>,
+        <a href="http://compass-style.org/">Compass</a>,
+        and <a href="http://sass-lang.com/">Sass</a>.
+        Full source available on
+        <a href="https://github.com/ericam/art-is-for-people">Github</a>
+      </p>
+
+      <a href="https://github.com/ericam/art-is-for-people/blob/master/LICENSE" class="copyright">
+        Copyright &copy; 2013 <strong>Eric A. Meyer</strong>
+        [some rights reserved]
+      </a>
     </div>
 
     <nav class="slidenav">
@@ -26,12 +55,90 @@
 
     <!-- About Slide -->
     <div class="slide">
-      <h1>Eric<span class="amp">&</span>Meyer</h1>
-      <p>Artist == Developer</p>
+      <header class="slidehead">
+        <h1 class="head">Eric<b class="amp">&</b>Meyer</h1>
+        <p class="subhead">Developer == Artist</p>
+      </header>
+   </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="info">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="dev">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="dev" name="section-toggle" />
+  <section data-toggle="section" class="dev">
+
+    <!-- Developer Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Developer</b></h1>
+        <p class="subhead">Software for Users</p>
+      </header>
+
+      <ul class="developer">
+        <li><a href="http://oddbird.net/">OddBird</a></li>
+        <li><a href="http://provplan.org/">The Providence Plan</a></li>
+        <li><a href="http://mozilla.com/">Mozilla</a></li>
+        <li><a href="http://theknetwork.org/">The K Network</a></li>
+        <li><a href="http://junyo.com/">Junyo</a></li>
+        <li><a href="http://compass-style.org/">Compass/Sass</a></li>
+        <li><a href="http://susy.oddbird.net/">Susy</a></li>
+        <li><a href="http://eric.andmeyer.com/true/">True</a></li>
+      </ul>
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="title">
+      <label class="prev" for="about">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="next" for="art">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="art" name="section-toggle" />
+  <section data-toggle="section" class="art">
+
+    <!-- Artist Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Artist</b></h1>
+        <p class="subhead">Art for Audience</p>
+      </header>
+
+      <ul class="developer">
+        <li><a href="http://oddbird.net/">OddBird</a></li>
+        <li><a href="http://provplan.org/">The Providence Plan</a></li>
+        <li><a href="http://mozilla.com/">Mozilla</a></li>
+        <li><a href="http://theknetwork.org/">The K Network</a></li>
+        <li><a href="http://junyo.com/">Junyo</a></li>
+        <li><a href="http://compass-style.org/">Compass/Sass</a></li>
+        <li><a href="http://susy.oddbird.net/">Susy</a></li>
+        <li><a href="http://eric.andmeyer.com/true/">True</a></li>
+      </ul>
+
+      <ul class="artist">
+        <li><a href="http://newworldarts.org/">New World Arts</a></li>
+        <li><a href="http://http://countdowntozero.org/">Countdown to Zero</a></li>
+        <li><a href="http://lida.org/">The LIDA Project</a></li>
+        <li><a href="http://vicioustrap.com/">Vicious Trap</a></li>
+        <li><a href="http://teacupgorilla.com/">Teacup Gorilla</a></li>
+        <li><a href="http://www.denverpoetstheatre.com/">Denver Poet's Theatre</a></li>
+        <li><a href="http://www.springgunpress.com/issue-8-2013/">The Post-Obsolete Book</a></li>
+        <li><a href="http://greengreenmud.com/">Into The Green Green Mud</a></li>
+        <li><a href="http://www.springgunpress.com/">Variations on Riding Side Saddle</a></li>
+      </ul>
+    </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="dev">
         <span class="alt-text">previous</span>
       </label>
       <label class="next" for="ux">
@@ -45,8 +152,10 @@
 
     <!-- UX Slide -->
     <div class="slide">
-      <h1>User Experience Design</h1>
-      <p>Ideas => Experiences</p>
+      <header class="slidehead">
+        <h1 class="head">User Experience Designer</h1>
+        <p class="subhead">Ideas => Experiences</p>
+      </header>
     </div>
 
     <nav class="slidenav">
@@ -64,8 +173,10 @@
 
     <!-- Responsive Art Slide -->
     <div class="slide">
-      <h1>Responsive Art <small class="version">beta</small></h1>
-      <p>Art is for people. Art is a growing organism.</p>
+      <header class="slidehead">
+        <h1 class="head">Responsive Art <small class="version">beta</small></h1>
+        <p class="subhead">Art is for people. Art is a growing organism.</p>
+      </header>
     </div>
 
     <nav class="slidenav">
@@ -83,69 +194,51 @@
 
     <input type="checkbox" id="topic1" class="toggle-topic">
     <label class="topic" for="topic1">
-      <h2>Process</h2>
+      <h2 class="topichead">Process</h2>
     </label>
     <input type="checkbox" id="topic2" class="toggle-topic">
     <label class="topic" for="topic2">
-      <h2>Testing</h2>
+      <h2 class="topichead">Testing</h2>
     </label>
     <input type="checkbox" id="topic3" class="toggle-topic">
     <label class="topic" for="topic3">
-      <h2>Media</h2>
+      <h2 class="topichead">Media</h2>
     </label>
     <input type="checkbox" id="topic4" class="toggle-topic">
     <label class="topic" for="topic4">
-      <h2>Tools</h2>
+      <h2 class="topichead">Tools</h2>
     </label>
     <input type="checkbox" id="topic5" class="toggle-topic">
     <label class="topic" for="topic5">
-      <h2>Editing</h2>
+      <h2 class="topichead">Editing</h2>
     </label>
     <input type="checkbox" id="topic6" class="toggle-topic">
     <label class="topic" for="topic6">
-      <h2>Audience</h2>
+      <h2 class="topichead">Audience</h2>
     </label>
     <input type="checkbox" id="topic7" class="toggle-topic">
     <label class="topic" for="topic7">
-      <h2>Usability</h2>
+      <h2 class="topichead">Usability</h2>
     </label>
     <input type="checkbox" id="topic8" class="toggle-topic">
     <label class="topic" for="topic8">
-      <h2>Collaboration</h2>
+      <h2 class="topichead">Collaboration</h2>
     </label>
     <input type="checkbox" id="topic9" class="toggle-topic">
     <label class="topic" for="topic9">
-      <h2>Everywhere</h2>
+      <h2 class="topichead">Everywhere</h2>
     </label>
 
     <nav class="slidenav">
       <label class="prev" for="responsive-art">
         <span class="alt-text">previous</span>
       </label>
-      <label class="next" for="end">
+      <label class="next" for="info">
         <span class="alt-text">next</span>
       </label>
     </nav>
   </section>
 
-  <input type="radio" id="end" name="section-toggle" />
-  <section data-toggle="section" class="end">
-
-    <!-- End Slide -->
-    <div class="slide">
-      <h1>Fin</h1>
-      <p>No One Wants Your Media Arts — Eric A. Meyer</p>
-    </div>
-
-    <nav class="slidenav">
-      <label class="prev" for="topics">
-        <span class="alt-text">previous</span>
-      </label>
-      <label class="next" for="title">
-        <span class="alt-text">next</span>
-      </label>
-    </nav>
-  </section>
-
+  <aside class="section-toggle-focus" data-icon="feed"></aside>
 </body>
 </html>
