@@ -1,0 +1,13 @@
+// Root Styles
+// ===========
+
+@include establish-baseline;
+* { @include box-sizing(border-box); }
+
+html {
+  @include sans;
+  background: color(90%);
+  color: $base;
+}
+
+html, body { overflow-x: hidden; }

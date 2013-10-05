@@ -1,0 +1,34 @@
+// Fonts
+// =====
+
+// Amp
+@include font('BaskervilleAmp' 'Baskerville-amp-webfont');
+
+// Century OldStyle
+@include font('CenturyOldStyle' 'CenturyOldStyle-Regular-webfont');
+@include font('CenturyOldStyle' 'CenturyOldStyle-Italic-webfont' italic);
+@include font('CenturyOldStyle' 'CenturyOldStyle-Bold-webfont' bold);
+@include font('CenturyOldStyleCaps' 'CenturyOldStyleCaps-Regular-webfont');
+
+// Franklin Gothic Condensed
+@include font('FranklinGothicCond' 'FranklinGothic-Cd-webfont');
+@include font('FranklinGothicCond' 'FranklinGothic-CdIt-webfont' italic);
+@include font('FranklinGothicCond' 'FranklinGothic-DemiCd-webfont' bold);
+@include font('FranklinGothicCond' 'FranklinGothic-DemiCdIt-webfont' bold italic);
+
+// ----------------------------------------------------------------------------
+// Font Stacks
+
+$sans-stack   : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-stack  : Baskerville, Palatino, Cambria, Georgia, serif;
+$mono-stack   : Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+
+// ----------------------------------------------------------------------------
+// Font Mixins
+
+@mixin sanscond { font-family: 'FranklinGothicCond',$sans-stack; }
+@mixin sans { @include sanscond; }
+@mixin serif { font-family: 'CenturyOldStyle',$serif-stack; }
+@mixin serifcaps { font-family: 'CenturyOldStyleCaps',$serif-stack; }
+@mixin mono { font-family: $mono-stack; }
+@mixin amp { font-family: 'BaskervilleAmp', $serif-stack; }

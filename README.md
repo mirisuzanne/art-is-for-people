@@ -25,7 +25,7 @@ Library Science for Artists
 ---------------------------
 
 - Art is For People
-  - No one wants "Media Arts"
+  - No one wants "Media Arts" (Podcast)
   - "No one spends more than five minutes with digital literature"
   - Why not? What do they want?
   - Respect their time

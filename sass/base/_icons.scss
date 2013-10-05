@@ -1,0 +1,25 @@
+// Icons
+// =====
+
+$icon-facebook      : "\e000";
+$icon-html5         : "\e001";
+$icon-css3          : "\e002";
+$icon-stack         : "\e003";
+$icon-twitter       : "\e004";
+$icon-vimeo         : "\e005";
+$icon-github        : "\e006";
+$icon-dribbble      : "\e007";
+$icon-feed          : "\e008";
+$icon-mail          : "\e009";
+
+$icons: 'facebook'    $icon-facebook,
+        'html5'       $icon-html5,
+        'css3'        $icon-css3,
+        'stack'       $icon-stack,
+        'twitter'     $icon-twitter,
+        'vimeo'       $icon-vimeo,
+        'github'      $icon-github,
+        'dribbble'    $icon-dribbble,
+        'feed'        $icon-feed,
+        'mail'        $icon-mail
+        ;

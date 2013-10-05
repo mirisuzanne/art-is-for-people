@@ -1,0 +1,26 @@
+// Colors
+// ------
+
+$default-hue      : #839496;
+
+$blue             : hsl(195,85%,50%);
+$orange           : hsl(24,85%,50%);
+$yellow           : hsl(45,85%,50%);
+$green            : hsl(75,65%,50%);
+$pink             : hsl(330,85%,50%);
+$red              : hsl(0,85%,50%);
+
+$base: color(darker);
+$alt: color(dark $blue);
+$accent: color(dark $red);
+$hint: color(95%);
+
+$colors:  'blue'     $blue,
+          'orange'   $orange,
+          'yellow'   $yellow,
+          'green'    $green,
+          'pink'     $pink,
+          'red'      $red,
+          'base'     $base,
+          'alt'      $alt,
+          'accent'   $accent;

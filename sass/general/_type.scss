@@ -1,0 +1,49 @@
+// Typography
+// ==========
+
+.alt-text { @include gone; }
+
+// Headers
+// -------
+
+%h1 { @include adjust-font-size-to($xxlargepx); }
+%h2 { @include adjust-font-size-to($xlargepx); }
+%h3 { @include adjust-font-size-to($largepx); }
+%h4 { @include adjust-font-size-to($medpx); }
+
+%headers {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+
+  h1 { @extend %h1; }
+  h2 { @extend %h2; }
+  h3 { @extend %h3; }
+  h4 { @extend %h4; }
+}
+
+// Body
+// ----
+
+%body {
+  p, ol, ul {
+    @include trailer;
+  }
+
+  ol, ul {
+    ol, ul {
+      margin-left: rhythm(1);
+    }
+  }
+
+  ol { list-style: decimal; }
+  ul { list-style: disc; }
+}
+
+// Type
+// ----
+
+%type {
+  @extend %headers;
+  @extend %body;
+}
