@@ -12,3 +12,9 @@ Live at http://eric.andmeyer.com/art-is-for-people
 
 [bc]: http://brakhagecenter.com/
 [ls]: http://brakhagecenter.com/?p=932
+
+Notes
+-----
+
+- Written entirely with simple HTML and CSS for modern browsers.
+- I'll be presenting in Chrome, so that's my main concern.
