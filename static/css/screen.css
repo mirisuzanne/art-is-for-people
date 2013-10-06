@@ -449,7 +449,7 @@ label {
   padding-top: 1.96875rem;
   padding-bottom: 3.28125rem;
   margin-bottom: 1.3125rem;
-  background: url('../images/eric.svg?1381036061') no-repeat scroll left;
+  background: url('../images/eric.svg?1381050883') no-repeat scroll left;
   -webkit-background-size: 9.1875rem;
   -moz-background-size: 9.1875rem;
   -o-background-size: 9.1875rem;
@@ -550,13 +550,13 @@ label {
   border-color: #0098cc;
 }
 .dev-sample .mozilla {
-  background-image: url('../images/screens/mozilla.png?1381041712');
+  background-image: url('../images/screens/mozilla.png?1381050883');
 }
 .dev-sample .junyo {
-  background-image: url('../images/screens/junyo.png?1381041980');
+  background-image: url('../images/screens/junyo.png?1381050883');
 }
 .dev-sample .susy {
-  background-image: url('../images/screens/susy.png?1381042556');
+  background-image: url('../images/screens/susy.png?1381050883');
 }
 
 .pob-sample, .ggm-sample {
@@ -606,37 +606,38 @@ label {
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-position: center;
 }
-.theatre-sample .show:hover {
+.theatre-sample .ado {
+  background-image: url('../images/shows/ado.jpg?1381050883');
+}
+.theatre-sample .danny {
+  background-image: url('../images/shows/danny.jpg?1381050883');
+}
+.theatre-sample .falling {
+  background-image: url('../images/shows/falling.jpg?1381050883');
+}
+.theatre-sample .hello {
+  background-image: url('../images/shows/hello.jpg?1381050883');
+}
+.theatre-sample .oneact {
+  background-image: url('../images/shows/oneact.jpg?1381050883');
+}
+.theatre-sample .rochester {
+  background-image: url('../images/shows/rochester.jpg?1381050883');
+}
+.theatre-sample .rollerskating {
+  background-image: url('../images/shows/rollerskating.jpg?1381050883');
+}
+.theatre-sample .murder {
+  background-image: url('../images/shows/murder.jpg?1381050883');
+}
+.theatre-sample .missa {
   -webkit-transform: scale(1.2, 1.2);
   -moz-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   -o-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
+  background-image: url('../images/shows/missa.jpg?1381049919');
   z-index: 10;
-}
-.theatre-sample .ado {
-  background-image: url('../images/shows/ado.jpg?1381046747');
-}
-.theatre-sample .danny {
-  background-image: url('../images/shows/danny.jpg?1381046756');
-}
-.theatre-sample .falling {
-  background-image: url('../images/shows/falling.jpg?1381046736');
-}
-.theatre-sample .hello {
-  background-image: url('../images/shows/hello.jpg?1140107162');
-}
-.theatre-sample .oneact {
-  background-image: url('../images/shows/oneact.jpg?1381046672');
-}
-.theatre-sample .rochester {
-  background-image: url('../images/shows/rochester.jpg?1381046683');
-}
-.theatre-sample .rollerskating {
-  background-image: url('../images/shows/rollerskating.jpg?1381046705');
-}
-.theatre-sample .murder {
-  background-image: url('../images/shows/murder.jpg?1381046493');
 }
 
 .topics {

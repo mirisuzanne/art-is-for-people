@@ -29,10 +29,6 @@
     min-height: rhythm(3);
     border: 1px solid color(white,.5);
     background-position: center;
-    &:hover {
-      @include scale(1.2);
-      z-index: 10;
-    }
   }
   .ado { background-image: image-url('shows/ado.jpg'); }
   .danny { background-image: image-url('shows/danny.jpg'); }
@@ -42,5 +38,10 @@
   .rochester { background-image: image-url('shows/rochester.jpg'); }
   .rollerskating { background-image: image-url('shows/rollerskating.jpg'); }
   .murder { background-image: image-url('shows/murder.jpg'); }
+  .missa {
+    @include scale(1.2);
+    background-image: image-url('shows/missa.jpg');
+    z-index: 10;
+  }
 }
 
