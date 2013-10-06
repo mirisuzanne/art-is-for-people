@@ -11,9 +11,10 @@
   top: 0;
   bottom: 0;
   padding: rhythm(.25);
-  background: color(darkest,.25);
+  background: color($accent,.25);
   color: color(white,.5);
   cursor: pointer;
+  z-index: 500;
 
   #{$focus} { opacity: .5; }
 }

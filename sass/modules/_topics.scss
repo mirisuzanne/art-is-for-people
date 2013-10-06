@@ -12,8 +12,10 @@
   @include display-flex;
   @include align-items(center);
   @include flex(1 1 33%);
+  @include transition(all 1s);
   background: color($alt lightest);
   border: 1px solid color(white,.5);
+  text-shadow: 0 1px 0 color(white,.5);
   .topichead {
     @extend %h2;
     width: 100%;
@@ -22,7 +24,9 @@
 
   @for $i from 1 through 9 {
     &:nth-of-type(#{$i}) {
-      background: adjust-hue(color($alt lightest), 360/10 * ($i - 1));
+      $color: adjust-hue($alt, 360/10 * ($i - 1));
+      background: color(lightest $color);
+      &:hover { background: color(lighter $color); }
     }
   }
 }
@@ -34,6 +38,7 @@
       background-color: color(lightest);
       color: white;
       text-shadow: 0 0 3px color($base,.25);
+      &:hover { @include scale(1); }
     }
   }
 }

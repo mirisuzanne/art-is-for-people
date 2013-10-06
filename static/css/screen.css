@@ -56,63 +56,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @font-face {
   font-family: "BaskervilleAmp";
-  src: url('../fonts/Baskerville-amp-webfont.woff?1340674215') format("woff"), url('../fonts/Baskerville-amp-webfont.ttf?1340674215') format("truetype");
+  src: url('../fonts/amp/Baskerville-amp-webfont.woff?1340674215') format("woff"), url('../fonts/amp/Baskerville-amp-webfont.ttf?1340674215') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Regular-webfont.woff?1341997853') format("woff"), url('../fonts/CenturyOldStyle-Regular-webfont.ttf?1341997853') format("truetype");
+  font-family: "FranklinGothic";
+  src: url('../fonts/sans/FranklinGothic-Book-webfont.woff?1378663600') format("woff"), url('../fonts/sans/FranklinGothic-Book-webfont.ttf?1378663600') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Italic-webfont.woff?1341997853') format("woff"), url('../fonts/CenturyOldStyle-Italic-webfont.ttf?1341997853') format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Bold-webfont.woff?1341997853') format("woff"), url('../fonts/CenturyOldStyle-Bold-webfont.ttf?1341997853') format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CenturyOldStyleCaps";
-  src: url('../fonts/CenturyOldStyleCaps-Regular-webfont.woff?1341997853') format("woff"), url('../fonts/CenturyOldStyleCaps-Regular-webfont.ttf?1341997853') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-Cd-webfont.woff?1341997854') format("woff"), url('../fonts/FranklinGothic-Cd-webfont.ttf?1341997854') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-CdIt-webfont.woff?1341997854') format("woff"), url('../fonts/FranklinGothic-CdIt-webfont.ttf?1341997854') format("truetype");
+  font-family: "FranklinGothic";
+  src: url('../fonts/sans/FranklinGothic-BookIt-webfont.woff?1378663600') format("woff"), url('../fonts/sans/FranklinGothic-BookIt-webfont.ttf?1378663600') format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
+  font-family: "FranklinGothic";
+  src: url('../fonts/sans/FranklinGothic-Demi-webfont.woff?1295138698') format("woff"), url('../fonts/sans/FranklinGothic-Demi-webfont.ttf?1295138698') format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic";
+  src: url('../fonts/sans/FranklinGothic-DemiIt-webfont.woff?1295138700') format("woff"), url('../fonts/sans/FranklinGothic-DemiIt-webfont.ttf?1295138700') format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-DemiCd-webfont.woff?1341997854') format("woff"), url('../fonts/FranklinGothic-DemiCd-webfont.ttf?1341997854') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-Cd-webfont.woff?1378663600') format("woff"), url('../fonts/sanscond/FranklinGothic-Cd-webfont.ttf?1378663600') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothicCond";
+  src: url('../fonts/sanscond/FranklinGothic-CdIt-webfont.woff?1378663600') format("woff"), url('../fonts/sanscond/FranklinGothic-CdIt-webfont.ttf?1378663600') format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FranklinGothicCond";
+  src: url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.woff?1295138700') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.ttf?1295138700') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-DemiCdIt-webfont.woff?1341997854') format("woff"), url('../fonts/FranklinGothic-DemiCdIt-webfont.ttf?1341997854') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.woff?1295138700') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.ttf?1295138700') format("truetype");
   font-weight: bold;
   font-style: italic;
 }
@@ -129,7 +129,7 @@ html {
 }
 
 html {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "FranklinGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4vmin;
   line-height: 1.3em;
   background: #f8f8f8;
@@ -142,8 +142,8 @@ html, body {
 }
 
 @font-face {
-  font-family: "icons";
-  src: url('../fonts/icons.woff?1343056130') format("woff"), url('../fonts/icons.ttf?1343056130') format("truetype");
+  font-family: "art";
+  src: url('../fonts/icons/art.woff?1381053914') format("woff"), url('../fonts/icons/art.ttf?1381053914') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -152,7 +152,7 @@ html, body {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  font-family: "icons";
+  font-family: "art";
   font-style: normal;
   speak: none;
 }
@@ -161,54 +161,70 @@ html, body {
   content: attr(data-icon);
 }
 
-[data-icon="facebook"]:before {
-  content: "\e000";
+[data-icon="pencil"]:before {
+  content: "\f071";
 }
 
-[data-icon="html5"]:before {
-  content: "\e001";
-}
-
-[data-icon="css3"]:before {
-  content: "\e002";
-}
-
-[data-icon="stack"]:before {
-  content: "\e003";
-}
-
-[data-icon="twitter"]:before {
+[data-icon="tag"]:before {
   content: "\e004";
 }
 
-[data-icon="vimeo"]:before {
-  content: "\e005";
+[data-icon="remove"]:before {
+  content: "\e000";
 }
 
-[data-icon="github"]:before {
+[data-icon="plus"]:before {
+  content: "\e001";
+}
+
+[data-icon="checkmark"]:before {
   content: "\e006";
 }
 
-[data-icon="dribbble"]:before {
-  content: "\e007";
-}
-
-[data-icon="feed"]:before {
+[data-icon="close"]:before {
   content: "\e008";
 }
 
-[data-icon="mail"]:before {
+[data-icon="warning"]:before {
   content: "\e009";
 }
 
+[data-icon="info"]:before {
+  content: "\e00a";
+}
+
+[data-icon="cancel"]:before {
+  content: "\e002";
+}
+
+[data-icon="move"]:before {
+  content: "\e00b";
+}
+
+[data-icon="twitter"]:before {
+  content: "\e00c";
+}
+
+[data-icon="github"]:before {
+  content: "\e00d";
+}
+
+[data-icon="bubble"]:before {
+  content: "\e003";
+}
+
+[data-icon="user"]:before {
+  content: "\e005";
+}
+
 a:link, a:visited {
-  color: #ff0080;
+  color: #0098cc;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover, a:focus, a:active {
-  color: #0098cc;
+  color: #ff0080;
 }
 
 .alt-text {
@@ -219,20 +235,23 @@ a:hover, a:focus, a:active {
 
 .amp {
   font-family: "BaskervilleAmp", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-
-.slidehead .head, .topic .topichead {
-  font-weight: bold;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .slidehead .head {
+  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.84375rem;
   line-height: 3.28125rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .topic .topichead {
+  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.1875rem;
   line-height: 2.625rem;
+  text-transform: uppercase;
 }
 
 label {
@@ -248,13 +267,11 @@ label {
 }
 
 .section-toggle-focus {
-  font-size: 0.78125rem;
-  line-height: 1.3125rem;
   display: none;
   position: fixed;
   bottom: 0.32813rem;
   right: 0.65625rem;
-  color: rgba(76, 76, 76, 0.125);
+  color: rgba(76, 76, 76, 0.25);
 }
 
 [data-toggle="section"] {
@@ -269,7 +286,8 @@ label {
   width: 100%;
   height: 100%;
   margin-right: -1000%;
-  padding: 1.3125rem;
+  padding: 2.625rem 1.3125rem;
+  overflow-y: scroll;
 }
 
 [name="section-toggle"]:checked + [data-toggle="section"] {
@@ -290,11 +308,21 @@ label {
 }
 
 .slidehead {
+  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1.3125rem;
+  text-transform: uppercase;
   text-align: center;
 }
 .slidehead b {
-  color: #0098cc;
+  color: #ff0080;
+}
+.slidehead .amp {
+  position: relative;
+  font-size: 5.25rem;
+  display: inline-block;
+  margin: 0 -.15em 0 -.15em;
+  vertical-align: middle;
+  z-index: -1;
 }
 
 .prev, .next {
@@ -317,9 +345,10 @@ label {
   top: 0;
   bottom: 0;
   padding: 0.32813rem;
-  background: rgba(25, 25, 25, 0.25);
+  background: rgba(255, 0, 128, 0.25);
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
+  z-index: 500;
 }
 .prev:hover, .prev:focus, .prev:active, .next:hover, .next:focus, .next:active {
   opacity: .5;
@@ -376,39 +405,71 @@ label {
   -webkit-flex: 1 1 33%;
   -ms-flex: 1 1 33%;
   flex: 1 1 33%;
-  background: #ffcce5;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background: #cceaf4;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 .topic .topichead {
   width: 100%;
   text-align: center;
 }
 .topic:nth-of-type(1) {
-  background: #ffcce5;
+  background: #cceaf4;
+}
+.topic:nth-of-type(1):hover {
+  background: #66c1e0;
 }
 .topic:nth-of-type(2) {
-  background: #ffd2cc;
+  background: #ccd2f4;
+}
+.topic:nth-of-type(2):hover {
+  background: #6678e0;
 }
 .topic:nth-of-type(3) {
-  background: #fff0cc;
+  background: #deccf4;
+}
+.topic:nth-of-type(3):hover {
+  background: #9d66e0;
 }
 .topic:nth-of-type(4) {
-  background: #efffcc;
+  background: #f4ccf2;
+}
+.topic:nth-of-type(4):hover {
+  background: #e066d9;
 }
 .topic:nth-of-type(5) {
-  background: #d1ffcc;
+  background: #f4ccda;
+}
+.topic:nth-of-type(5):hover {
+  background: #e06690;
 }
 .topic:nth-of-type(6) {
-  background: #ccffe6;
+  background: #f4d6cc;
+}
+.topic:nth-of-type(6):hover {
+  background: #e08566;
 }
 .topic:nth-of-type(7) {
-  background: #ccf9ff;
+  background: #f4eecc;
+}
+.topic:nth-of-type(7):hover {
+  background: #e0ce66;
 }
 .topic:nth-of-type(8) {
-  background: #ccdbff;
+  background: #e2f4cc;
+}
+.topic:nth-of-type(8):hover {
+  background: #a8e066;
 }
 .topic:nth-of-type(9) {
-  background: #dcccff;
+  background: #ccf4ce;
+}
+.topic:nth-of-type(9):hover {
+  background: #66e06c;
 }
 
 .toggle-topic:checked + .topic {
@@ -418,4 +479,11 @@ label {
   background-color: #e5e5e5;
   color: white;
   text-shadow: 0 0 3px rgba(76, 76, 76, 0.25);
+}
+.toggle-topic:checked + .topic:hover {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
 }

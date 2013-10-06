@@ -1,8 +1,8 @@
 // Icons
 // =====
 
-@include font('icons');
-@include icon-defaults('icons');
+@include font('art' 'icons/art');
+@include icon-defaults('art');
 
 @mixin icon($name) {
   @extend %icon;
