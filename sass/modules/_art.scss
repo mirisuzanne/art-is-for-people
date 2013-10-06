@@ -2,17 +2,20 @@
 // ==========
 
 .pob-sample, .ggm-sample {
+  @include box-shadow(0 0 .25em color(darkest));
   text-align: center;
+  background-color: color($base,.9);
 }
 
 .sample-frame {
   width: 90%;
   height: 100%;
   margin: 0 auto;
-  border: 3px solid $alt;
+  border: 6px solid $alt;
 }
 
 .theatre-sample {
+  padding: 0;
   .slide {
     @include display-flex;
     @include justify-content(stretch);
@@ -27,7 +30,7 @@
     @include flex(1 1 33%);
     position: relative;
     min-height: rhythm(3);
-    border: 1px solid color(white,.5);
+    outline: 3px solid $alt;
     background-position: center;
   }
   .ado { background-image: image-url('shows/ado.jpg'); }
@@ -42,6 +45,20 @@
     @include scale(1.2);
     background-image: image-url('shows/missa.jpg');
     z-index: 10;
+  }
+}
+
+.pob-photo {
+  @include background(image-url('obsolete.jpg') no-repeat scroll center);
+  @include background-size(cover);
+  .watermark {
+    @include before('photo: ');
+    @include sanscond;
+    position: absolute;
+    bottom: rhythm(1);
+    left: rhythm(2);
+    text-transform: uppercase;
+    color: color(white,.75);
   }
 }
 

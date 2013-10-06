@@ -17,6 +17,7 @@
 }
 
 .dev-sample {
+  padding: 0;
   .samples {
     @include display-flex;
     @include align-items(stretch);
@@ -31,16 +32,14 @@
     @include flex(1);
     @include display-flex;
     @include align-items(center);
+    @include box-shadow(0 0 .25em color(darkest,.5));
     position: relative;
-    border: 3px solid color(lighter);
 
-    + li { margin-left: -3px; }
+    + li { border-left: 3px solid $accent; }
 
     &:hover {
       @include flex(5);
       margin: 0;
-      border-color: $alt;
-      z-index: 10;
     }
   }
   .mozilla { background-image: image-url('screens/mozilla.png'); }

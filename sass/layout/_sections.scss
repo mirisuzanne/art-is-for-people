@@ -7,12 +7,12 @@
 }
 
 .section-toggle-focus {
-  display: none;
+  opacity: 0;
   position: fixed;
   bottom: 0;
   right: rhythm(.5);
-  color: color($base,.25);
-  z-index: 200;
+  color: color(lighter);
+  z-index: 800;
 }
 
 [data-toggle="section"] {
@@ -37,7 +37,7 @@
       z-index: 100;
     }
   }
-  &:focus { ~ .section-toggle-focus { display: block; } }
+  &:focus { ~ .section-toggle-focus { opacity: 1; } }
 }
 
 .slide {
