@@ -19,36 +19,28 @@
 .dev-sample {
   .samples {
     @include display-flex;
-    @include flex-direction(column);
     @include align-items(stretch);
     @include justify-content(center);
     height: 100%;
     width: 100%;
-    &:hover :nth-child(2) {
-      @include flex(1);
-      opacity: .25;
-      background-position: center;
-      border-color: color(lighter);
-      &:hover {
-        @include flex(5);
-        opacity: 1;
-        background-position: top;
-        border-color: $alt;
-      }
-    }
   }
   li {
     @include transition(all 300ms);
-    @include background(no-repeat scroll center);
-    @include background-size;
+    @include background(no-repeat scroll top left);
+    @include background-size(cover);
     @include flex(1);
-    opacity: .25;
+    @include display-flex;
+    @include align-items(center);
+    position: relative;
     border: 3px solid color(lighter);
-    &:nth-child(2), &:hover {
+
+    + li { margin-left: -3px; }
+
+    &:hover {
       @include flex(5);
-      opacity: 1;
-      background-position: top;
+      margin: 0;
       border-color: $alt;
+      z-index: 10;
     }
   }
   .mozilla { background-image: image-url('screens/mozilla.png'); }

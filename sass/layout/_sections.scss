@@ -12,6 +12,7 @@
   bottom: 0;
   right: rhythm(.5);
   color: color($base,.25);
+  z-index: 200;
 }
 
 [data-toggle="section"] {

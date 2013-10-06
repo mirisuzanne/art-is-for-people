@@ -16,3 +16,8 @@ html, body {
   overflow-x: hidden;
   height: 100%;
 }
+
+body {
+  @include background(image-url('rainish.svg') no-repeat scroll 150% 250%);
+  @include background-size(50% auto);
+}

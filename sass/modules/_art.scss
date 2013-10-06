@@ -45,3 +45,11 @@
   }
 }
 
+.variations-sample {
+  @extend %vertical-center;
+  @include background(image-url('variations.png') no-repeat scroll center);
+  @include background-size(cover);
+  .slidehead {
+    background: color(white,.75);
+  }
+}
