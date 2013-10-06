@@ -18,7 +18,11 @@
 
 @import "patterns/accordion";
 
-@import "modules/sections";
-@import "modules/slidenav";
-@import "modules/responsive-art";
+@import "layout/sections";
+@import "layout/slidenav";
+
+@import "modules/title";
+@import "modules/dev";
+@import "modules/art";
+@import "modules/ux";
 @import "modules/topics";

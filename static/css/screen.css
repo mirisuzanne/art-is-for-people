@@ -56,63 +56,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @font-face {
   font-family: "BaskervilleAmp";
-  src: url('../fonts/amp/Baskerville-amp-webfont.woff?1340674215') format("woff"), url('../fonts/amp/Baskerville-amp-webfont.ttf?1340674215') format("truetype");
+  src: url('../fonts/amp/Baskerville-amp-webfont.woff?1381027796') format("woff"), url('../fonts/amp/Baskerville-amp-webfont.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothic";
-  src: url('../fonts/sans/FranklinGothic-Book-webfont.woff?1378663600') format("woff"), url('../fonts/sans/FranklinGothic-Book-webfont.ttf?1378663600') format("truetype");
+  src: url('../fonts/sans/FranklinGothic-Book-webfont.woff?1381027796') format("woff"), url('../fonts/sans/FranklinGothic-Book-webfont.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothic";
-  src: url('../fonts/sans/FranklinGothic-BookIt-webfont.woff?1378663600') format("woff"), url('../fonts/sans/FranklinGothic-BookIt-webfont.ttf?1378663600') format("truetype");
+  src: url('../fonts/sans/FranklinGothic-BookIt-webfont.woff?1381027796') format("woff"), url('../fonts/sans/FranklinGothic-BookIt-webfont.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FranklinGothic";
-  src: url('../fonts/sans/FranklinGothic-Demi-webfont.woff?1295138698') format("woff"), url('../fonts/sans/FranklinGothic-Demi-webfont.ttf?1295138698') format("truetype");
+  src: url('../fonts/sans/FranklinGothic-Demi-webfont.woff?1381027796') format("woff"), url('../fonts/sans/FranklinGothic-Demi-webfont.ttf?1381027796') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothic";
-  src: url('../fonts/sans/FranklinGothic-DemiIt-webfont.woff?1295138700') format("woff"), url('../fonts/sans/FranklinGothic-DemiIt-webfont.ttf?1295138700') format("truetype");
+  src: url('../fonts/sans/FranklinGothic-DemiIt-webfont.woff?1381027796') format("woff"), url('../fonts/sans/FranklinGothic-DemiIt-webfont.ttf?1381027796') format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/sanscond/FranklinGothic-Cd-webfont.woff?1378663600') format("woff"), url('../fonts/sanscond/FranklinGothic-Cd-webfont.ttf?1378663600') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-Cd-webfont.woff?1381027796') format("woff"), url('../fonts/sanscond/FranklinGothic-Cd-webfont.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/sanscond/FranklinGothic-CdIt-webfont.woff?1378663600') format("woff"), url('../fonts/sanscond/FranklinGothic-CdIt-webfont.ttf?1378663600') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-CdIt-webfont.woff?1381027796') format("woff"), url('../fonts/sanscond/FranklinGothic-CdIt-webfont.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.woff?1295138700') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.ttf?1295138700') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.woff?1381027796') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCd-webfont.ttf?1381027796') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FranklinGothicCond";
-  src: url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.woff?1295138700') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.ttf?1295138700') format("truetype");
+  src: url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.woff?1381027796') format("woff"), url('../fonts/sanscond/FranklinGothic-DemiCdIt-webfont.ttf?1381027796') format("truetype");
   font-weight: bold;
   font-style: italic;
 }
@@ -143,7 +143,7 @@ html, body {
 
 @font-face {
   font-family: "art";
-  src: url('../fonts/icons/art.woff?1381053914') format("woff"), url('../fonts/icons/art.ttf?1381053914') format("truetype");
+  src: url('../fonts/icons/art.woff?1381027796') format("woff"), url('../fonts/icons/art.ttf?1381027796') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -239,19 +239,33 @@ a:hover, a:focus, a:active {
   font-style: normal;
 }
 
-.slidehead .head {
+.slidehead .head, .topic .topichead {
   font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.slidehead .head {
   font-size: 2.84375rem;
   line-height: 3.28125rem;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
 .topic .topichead {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.1875rem;
-  line-height: 2.625rem;
-  text-transform: uppercase;
+  font-size: 1.6875rem;
+  line-height: 1.96875rem;
+}
+
+.dev .slidebody p, .art .slidebody p, .dev .slidebody ol, .art .slidebody ol, .dev .slidebody ul, .art .slidebody ul {
+  margin-bottom: 1.3125rem;
+}
+.dev .slidebody ol ol, .art .slidebody ol ol, .dev .slidebody ol ul, .art .slidebody ol ul, .dev .slidebody ul ol, .art .slidebody ul ol, .dev .slidebody ul ul, .art .slidebody ul ul {
+  margin-left: 1.3125rem;
+}
+.dev .slidebody ol, .art .slidebody ol {
+  list-style: decimal;
+}
+.dev .slidebody ul, .art .slidebody ul {
+  list-style: disc;
 }
 
 label {
@@ -266,10 +280,21 @@ label {
   z-index: -1;
 }
 
+.info, .dev, .art, .variations-sample, .ux, .people, .organism {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .section-toggle-focus {
   display: none;
   position: fixed;
-  bottom: 0.32813rem;
+  bottom: 0;
   right: 0.65625rem;
   color: rgba(76, 76, 76, 0.25);
 }
@@ -279,6 +304,7 @@ label {
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
   transition: all 300ms;
+  counter-increment: slide;
   opacity: 0;
   z-index: -1;
   position: relative;
@@ -286,7 +312,7 @@ label {
   width: 100%;
   height: 100%;
   margin-right: -1000%;
-  padding: 2.625rem 1.3125rem;
+  padding: 1.3125rem;
   overflow-y: scroll;
 }
 
@@ -306,6 +332,9 @@ label {
 .slide {
   width: 100%;
 }
+.slide strong {
+  font-weight: bold;
+}
 
 .slidehead {
   font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -323,6 +352,30 @@ label {
   margin: 0 -.15em 0 -.15em;
   vertical-align: middle;
   z-index: -1;
+}
+
+.slidebody, .slidefoot {
+  max-width: 30.1875rem;
+  margin: 0 auto;
+}
+
+.slidefoot {
+  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.59375rem;
+  line-height: 0.98438rem;
+  text-transform: uppercase;
+  color: rgba(76, 76, 76, 0.5);
+}
+.slidefoot a:link, .slidefoot a:visited {
+  -webkit-transition: color 200ms;
+  -moz-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+  color: rgba(0, 121, 163, 0.5);
+  text-transform: uppercase;
+}
+.slidefoot a:hover, .slidefoot a:focus, .slidefoot a:active {
+  color: #ff0080;
 }
 
 .prev, .next {
@@ -368,14 +421,222 @@ label {
   content: "»";
 }
 
-.responsive-art .version {
-  font-size: 1.3125rem;
-  line-height: 1.96875rem;
-  color: #999999;
-  text-transform: uppercase;
+.this {
+  font-size: 0.59375rem;
+  line-height: 1.3125rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 2.29688rem;
+  padding: 0 0.65625rem;
+  color: rgba(76, 76, 76, 0.25);
+  text-align: left;
+  z-index: 800;
 }
-.responsive-art .version:after {
-  content: "!";
+.this:before {
+  content: counter(slide);
+}
+.this:hover {
+  color: #4c4c4c;
+}
+
+.info .version {
+  text-transform: none;
+  color: #b2b2b2;
+}
+
+.vcard {
+  padding-top: 1.96875rem;
+  padding-bottom: 3.28125rem;
+  margin-bottom: 1.3125rem;
+  background: url('../images/eric.svg?1381036061') no-repeat scroll left;
+  -webkit-background-size: 9.1875rem;
+  -moz-background-size: 9.1875rem;
+  -o-background-size: 9.1875rem;
+  background-size: 9.1875rem;
+  padding-left: 7.875rem;
+}
+.vcard .fn, .vcard .title {
+  display: block;
+}
+.vcard [rel="me"] {
+  display: inline-block;
+  margin-right: 0.65625rem;
+}
+.vcard [data-icon] {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+.vcard .link-text {
+  color: #4c4c4c;
+}
+
+.colophon, .copyright {
+  display: inline;
+}
+.colophon a, .copyright a {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.dev .slidebody, .art .slidebody {
+  text-align: center;
+}
+
+.developer, .artist {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  min-width: 15em;
+}
+
+.dev-sample .samples {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.dev-sample .samples:hover :nth-child(2) {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  opacity: .25;
+  background-position: center;
+  border-color: #b2b2b2;
+}
+.dev-sample .samples:hover :nth-child(2):hover {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  opacity: 1;
+  background-position: top;
+  border-color: #0098cc;
+}
+.dev-sample li {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  background: no-repeat scroll center;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  opacity: .25;
+  border: 3px solid #b2b2b2;
+}
+.dev-sample li:nth-child(2), .dev-sample li:hover {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  opacity: 1;
+  background-position: top;
+  border-color: #0098cc;
+}
+.dev-sample .mozilla {
+  background-image: url('../images/screens/mozilla.png?1381041712');
+}
+.dev-sample .junyo {
+  background-image: url('../images/screens/junyo.png?1381041980');
+}
+.dev-sample .susy {
+  background-image: url('../images/screens/susy.png?1381042556');
+}
+
+.pob-sample, .ggm-sample {
+  text-align: center;
+}
+
+.sample-frame {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 3px solid #0098cc;
+}
+
+.theatre-sample .slide {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-pack: stretch;
+  -ms-flex-pack: stretch;
+  -webkit-justify-content: stretch;
+  justify-content: stretch;
+  -webkit-flex-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  height: 100%;
+}
+.theatre-sample .show {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-flex: 1 1 33%;
+  -ms-flex: 1 1 33%;
+  flex: 1 1 33%;
+  position: relative;
+  min-height: 3.9375rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-position: center;
+}
+.theatre-sample .show:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  z-index: 10;
+}
+.theatre-sample .ado {
+  background-image: url('../images/shows/ado.jpg?1381046747');
+}
+.theatre-sample .danny {
+  background-image: url('../images/shows/danny.jpg?1381046756');
+}
+.theatre-sample .falling {
+  background-image: url('../images/shows/falling.jpg?1381046736');
+}
+.theatre-sample .hello {
+  background-image: url('../images/shows/hello.jpg?1140107162');
+}
+.theatre-sample .oneact {
+  background-image: url('../images/shows/oneact.jpg?1381046672');
+}
+.theatre-sample .rochester {
+  background-image: url('../images/shows/rochester.jpg?1381046683');
+}
+.theatre-sample .rollerskating {
+  background-image: url('../images/shows/rollerskating.jpg?1381046705');
+}
+.theatre-sample .murder {
+  background-image: url('../images/shows/murder.jpg?1381046493');
 }
 
 .topics {

@@ -1,0 +1,46 @@
+// Art Slides
+// ==========
+
+.pob-sample, .ggm-sample {
+  text-align: center;
+}
+
+.sample-frame {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 3px solid $alt;
+}
+
+.theatre-sample {
+  .slide {
+    @include display-flex;
+    @include justify-content(stretch);
+    @include align-items(stretch);
+    @include flex-wrap(wrap);
+    padding: 0;
+    height: 100%;
+  }
+  .show {
+    @include transition(all 300ms);
+    @include background-size(cover);
+    @include flex(1 1 33%);
+    position: relative;
+    min-height: rhythm(3);
+    border: 1px solid color(white,.5);
+    background-position: center;
+    &:hover {
+      @include scale(1.2);
+      z-index: 10;
+    }
+  }
+  .ado { background-image: image-url('shows/ado.jpg'); }
+  .danny { background-image: image-url('shows/danny.jpg'); }
+  .falling { background-image: image-url('shows/falling.jpg'); }
+  .hello { background-image: image-url('shows/hello.jpg'); }
+  .oneact { background-image: image-url('shows/oneact.jpg'); }
+  .rochester { background-image: image-url('shows/rochester.jpg'); }
+  .rollerskating { background-image: image-url('shows/rollerskating.jpg'); }
+  .murder { background-image: image-url('shows/murder.jpg'); }
+}
+

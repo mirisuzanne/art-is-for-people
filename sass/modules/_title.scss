@@ -1,0 +1,34 @@
+// Title Slide
+// ===========
+
+.info {
+  @extend %vertical-center;
+  .version {
+    text-transform: none;
+    color: color(lighter);
+  }
+}
+
+.vcard {
+  @include rhythm-padding(1.5,2.5);
+  @include trailer;
+  @include background(image-url('eric.svg') no-repeat scroll left);
+  @include background-size(rhythm(7));
+  padding-left: rhythm(6);
+
+  .fn, .title { display: block; }
+  [rel="me"] {
+    display: inline-block;
+    margin-right: rhythm(.5);
+  }
+  [data-icon] { @include adjust-font-size-to($smallpx); }
+  .link-text { color: $base; }
+}
+
+.colophon, .copyright {
+  display: inline;
+  a {
+    display: inline-block;
+    font-weight: bold;
+  }
+}

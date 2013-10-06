@@ -7,22 +7,21 @@
 // Headers
 // -------
 
-%h1 {
+%h1, %h2, %h3 {
   @include sanscond;
-  @include adjust-font-size-to($xxlargepx);
   text-transform: uppercase;
+}
+
+%h1 {
+  @include adjust-font-size-to($xxlargepx);
   font-weight: bold;
 }
 
-%h2 {
-  @include sanscond;
-  @include adjust-font-size-to($xlargepx);
-  text-transform: uppercase;
-}
-
-%h3, %h4, %h5, %h6 { font-weight: bold; }
-
+%h2 { @include adjust-font-size-to($xlargepx); }
 %h3 { @include adjust-font-size-to($largepx); }
+
+%h4, %h5, %h6 { font-weight: bold; }
+
 %h4 { @include adjust-font-size-to($medpx); }
 
 %headers {

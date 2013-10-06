@@ -27,3 +27,18 @@
   @include before('»');
   right: 0;
 }
+
+.this {
+  @include before(counter(slide));
+  @include adjust-font-size-to($xxsmallpx);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: rhythm(1.75);
+  padding: 0 rhythm(.5);
+  color: color($base,.25);
+  text-align: left;
+  z-index: 800;
+
+  &:hover { color: $base; }
+}

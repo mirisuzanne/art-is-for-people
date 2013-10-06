@@ -13,58 +13,55 @@
       <header class="slidehead">
         <h1 class="head">No One Wants Your <b>Media Arts</b></h1>
         <p class="subhead">
-          <a href="brakhagecenter.com/?p=956">Brakhage Center</a> —
+          <strong><a href="brakhagecenter.com/?p=956">Brakhage Center</a></strong> —
           October 7, 2013
+          <span class="version">[v1.0.beta-1]</span>
         </p>
       </header>
 
-      <div class="vcard eric">
-        <strong class="fn">Eric A. Meyer</strong>
-        <span class="title">Artist, Developer, Experience Designer</span>
-        <a href="http://eric.andmeyer.com/" class="url" rel="me">eric.andmeyer.com</a>
-        <a href="http://twitter.com/eriiicam/" class="twitter" rel="me">@eriiicam</a></li>
+      <div class="slidebody">
+        <div class="vcard eric">
+          <strong class="fn">Eric A. Meyer</strong>
+          <span class="title">Artist, Developer, Experience Designer</span>
+          <a href="http://eric.andmeyer.com/" class="url" rel="me">
+            <span data-icon="bubble"> </span>
+            <span class="link-text">eric.andmeyer.com</span>
+          </a>
+          <a href="http://twitter.com/eriiicam/" rel="me">
+            <span data-icon="twitter"> </span>
+            <span class="link-text">eriiicam</span>
+          </a>
+          <a href="http://github.com/ericam/" rel="me">
+            <span data-icon="github"> </span>
+            <span class="link-text">ericam</span>
+          </a>
+        </div>
       </div>
 
-      <p class="colophon">
-        Built on plain old semantic
-        <a href="http://www.w3.org/TR/html5/">HTML5</a>
-        and <a href="http://www.w3.org/TR/css-2010/">CSS3</a>,
-        with help from
-        <a href="http://keyamoon.com/icomoon/">IcoMoon</a>,
-        <a href="http://github.com/Team-Sass/modular-scale">Modular Scale</a>,
-        <a href="http://compass-style.org/">Compass</a>,
-        and <a href="http://sass-lang.com/">Sass</a>.
-        Full source available on
-        <a href="https://github.com/ericam/art-is-for-people">Github</a>
-      </p>
+      <footer class="slidefoot">
+        <p class="colophon">
+          Built on plain old semantic
+          <a href="http://www.w3.org/TR/html5/">HTML5</a>
+          and <a href="http://www.w3.org/TR/css-2010/">CSS3</a>,
+          with help from
+          <a href="http://keyamoon.com/icomoon/">IcoMoon</a>,
+          <a href="http://github.com/Team-Sass/modular-scale">Modular-Scale</a>,
+          <a href="http://compass-style.org/">Compass</a>,
+          and <a href="http://sass-lang.com/">Sass</a>.
+          Full source available on
+          <a href="https://github.com/ericam/art-is-for-people">Github</a>.
+        </p>
 
-      <a href="https://github.com/ericam/art-is-for-people/blob/master/LICENSE" class="copyright">
-        Copyright &copy; 2013 <strong>Eric A. Meyer</strong>
-        [some rights reserved]
-      </a>
+        <p class="copyright">
+          Copyright &copy; 2013 <strong>Eric A. Meyer</strong>.
+          <a href="https://github.com/ericam/art-is-for-people/blob/master/LICENSE">Some rights reserved</a>.
+        </p>
+      </footer>
     </div>
 
     <nav class="slidenav">
-      <label class="next" for="about">
-        <span class="alt-text">next</span>
-      </label>
-    </nav>
-  </section>
-
-  <input type="radio" id="about" name="section-toggle" />
-  <section data-toggle="section" class="about">
-
-    <!-- About Slide -->
-    <div class="slide">
-      <header class="slidehead">
-        <h1 class="head">Eric<b class="amp">&</b>Meyer</h1>
-        <p class="subhead">Developer == Artist</p>
-      </header>
-   </div>
-
-    <nav class="slidenav">
-      <label class="prev" for="info">
-        <span class="alt-text">previous</span>
+      <label class="this" for="info">
+        <span class="alt-text">this</span>
       </label>
       <label class="next" for="dev">
         <span class="alt-text">next</span>
@@ -81,21 +78,51 @@
         <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Developer</b></h1>
       </header>
 
-      <ul class="developer">
-        <li><a href="http://oddbird.net/">OddBird</a></li>
-        <li><a href="http://provplan.org/">The Providence Plan</a></li>
-        <li><a href="http://mozilla.com/">Mozilla</a></li>
-        <li><a href="http://theknetwork.org/">The K Network</a></li>
-        <li><a href="http://junyo.com/">Junyo</a></li>
-        <li><a href="http://compass-style.org/">Compass/Sass</a></li>
-        <li><a href="http://susy.oddbird.net/">Susy</a></li>
-        <li><a href="http://eric.andmeyer.com/true/">True</a></li>
-      </ul>
+      <div class="slidebody">
+        <ul class="developer">
+          <li><a href="http://oddbird.net/">OddBird</a></li>
+          <li>
+            <a href="http://compass-style.org/">Compass</a>,
+            <a href="http://susy.oddbird.net/">Susy</a>,
+            <a href="http://eric.andmeyer.com/true/">True</a>...
+          </li>
+          <li><a href="http://provplan.org/">ProvPlan</a></li>
+          <li><a href="http://theknetwork.org/">The K Network</a></li>
+          <li><a href="http://moztrap.mozilla.com/">Mozilla</a></li>
+          <li><a href="http://junyo.com/">Junyo</a></li>
+        </ul>
+      </div>
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="about">
+      <label class="prev" for="info">
         <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="dev">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="dev-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="dev-sample" name="section-toggle" />
+  <section data-toggle="section" class="dev-sample">
+
+    <!-- Dev Samples Slide -->
+    <ul class="slide samples">
+      <li class="mozilla"></li>
+      <li class="junyo"></li>
+      <li class="susy"></li>
+    </ul>
+
+    <nav class="slidenav">
+      <label class="prev" for="dev">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="dev-sample">
+        <span class="alt-text">this</span>
       </label>
       <label class="next" for="art">
         <span class="alt-text">next</span>
@@ -112,33 +139,113 @@
         <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Artist</b></h1>
       </header>
 
-      <ul class="developer">
-        <li><a href="http://oddbird.net/">OddBird</a></li>
-        <li><a href="http://provplan.org/">The Providence Plan</a></li>
-        <li><a href="http://mozilla.com/">Mozilla</a></li>
-        <li><a href="http://theknetwork.org/">The K Network</a></li>
-        <li><a href="http://junyo.com/">Junyo</a></li>
-        <li><a href="http://compass-style.org/">Compass/Sass</a></li>
-        <li><a href="http://susy.oddbird.net/">Susy</a></li>
-        <li><a href="http://eric.andmeyer.com/true/">True</a></li>
-      </ul>
-
-      <ul class="artist">
-        <li><a href="http://newworldarts.org/">New World Arts</a></li>
-        <li><a href="http://http://countdowntozero.org/">Countdown to Zero</a></li>
-        <li><a href="http://lida.org/">The LIDA Project</a></li>
-        <li><a href="http://vicioustrap.com/">Vicious Trap</a></li>
-        <li><a href="http://teacupgorilla.com/">Teacup Gorilla</a></li>
-        <li><a href="http://www.denverpoetstheatre.com/">Denver Poet's Theatre</a></li>
-        <li><a href="http://www.springgunpress.com/issue-8-2013/">The Post-Obsolete Book</a></li>
-        <li><a href="http://greengreenmud.com/">Into The Green Green Mud</a></li>
-        <li><a href="http://www.springgunpress.com/">Variations on Riding Side Saddle</a></li>
-      </ul>
+      <div class="slidebody">
+        <ul class="artist">
+            <li><a href="http://newworldarts.org/">New World Arts</a></li>
+            <li><a href="http://http://countdowntozero.org/">Countdown to Zero</a></li>
+            <li><a href="http://lida.org/">The LIDA Project</a></li>
+            <li><a href="http://vicioustrap.com/">Vicious Trap</a></li>
+            <li><a href="http://teacupgorilla.com/">Teacup Gorilla</a></li>
+            <li><a href="http://www.denverpoetstheatre.com/">Denver Poet's Theatre</a></li>
+          </ul>
+      </div>
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="dev">
+      <label class="prev" for="dev-sample">
         <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="art">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="theatre-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="theatre-sample" name="section-toggle" />
+  <section data-toggle="section" class="theatre-sample">
+
+    <!-- Theatre Sample Slide -->
+    <ul class="slide">
+      <li class="show ado"></li>
+      <li class="show danny"></li>
+      <li class="show falling"></li>
+      <li class="show hello"></li>
+      <li class="show oneact"></li>
+      <li class="show rochester"></li>
+      <li class="show rollerskating"></li>
+      <li class="show murder"></li>
+    </ul>
+
+    <nav class="slidenav">
+      <label class="prev" for="art">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="theatre-sample">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="pob-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="pob-sample" name="section-toggle" />
+  <section data-toggle="section" class="pob-sample">
+
+    <!-- POB Sample Slide -->
+    <iframe src="http://eric.andmeyer.com/post-obsolete/" class="pob sample-frame"></iframe>
+
+    <nav class="slidenav">
+      <label class="prev" for="theatre-sample">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="pob-sample">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="ggm-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="ggm-sample" name="section-toggle" />
+  <section data-toggle="section" class="ggm-sample">
+
+    <!-- GGM Sample Slide -->
+    <iframe src="http://greengreenmud.com/" class="ggm sample-frame"></iframe>
+
+    <nav class="slidenav">
+      <label class="prev" for="pob-sample">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="ggm-sample">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="variations-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="variations-sample" name="section-toggle" />
+  <section data-toggle="section" class="variations-sample">
+
+    <!-- Variations Sample Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head"><b>Variations</b> on Riding Side Saddle</h1>
+      </header>
+    </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="ggm-sample">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="variations-sample">
+        <span class="alt-text">this</span>
       </label>
       <label class="next" for="ux">
         <span class="alt-text">next</span>
@@ -153,7 +260,7 @@
     <div class="slide">
       <header class="slidehead">
         <h1 class="head">User <b>Experience</b> Designer</h1>
-        <p class="subhead">Ideas => Experiences</p>
+        <p class="subhead">Idea » Experience » Audience</p>
       </header>
     </div>
 
@@ -161,26 +268,56 @@
       <label class="prev" for="about">
         <span class="alt-text">previous</span>
       </label>
-      <label class="next" for="responsive-art">
+      <label class="this" for="ux">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="people">
         <span class="alt-text">next</span>
       </label>
     </nav>
   </section>
 
-  <input type="radio" id="responsive-art" name="section-toggle" />
-  <section data-toggle="section" class="responsive-art">
+  <input type="radio" id="people" name="section-toggle" />
+  <section data-toggle="section" class="people">
 
-    <!-- Responsive Art Slide -->
+    <!-- People Slide -->
     <div class="slide">
       <header class="slidehead">
-        <h1 class="head"><b>Responsive</b> Art <small class="version">beta</small></h1>
-        <p class="subhead">Art is for people. Art is a growing organism.</p>
+        <h1 class="head">Art is <b>for people</b></h1>
+        <p class="subhead">Don't hide behind theory.</p>
       </header>
     </div>
 
     <nav class="slidenav">
       <label class="prev" for="ux">
         <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="people">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="organism">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="organism" name="section-toggle" />
+  <section data-toggle="section" class="organism">
+
+    <!-- Organism Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head">Art is a <b>growing organism</b></h1>
+        <p class="subhead">Don't trust the medium.</p>
+      </header>
+    </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="people">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="organism">
+        <span class="alt-text">this</span>
       </label>
       <label class="next" for="topics">
         <span class="alt-text">next</span>
@@ -231,6 +368,9 @@
     <nav class="slidenav">
       <label class="prev" for="responsive-art">
         <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="topics">
+        <span class="alt-text">this</span>
       </label>
       <label class="next" for="info">
         <span class="alt-text">next</span>
