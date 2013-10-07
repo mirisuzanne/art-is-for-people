@@ -362,6 +362,14 @@ label {
   vertical-align: middle;
   z-index: -1;
 }
+.slidehead .cite:link, .slidehead .cite:visited {
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  color: #b2b2b2;
+}
+.slidehead .cite:hover, .slidehead .cite:focus, .slidehead .cite:active {
+  color: #0098cc;
+}
 
 .slidebody, .slidefoot {
   max-width: 30.1875rem;
@@ -630,7 +638,7 @@ label {
   background-image: url('../images/shows/hello.jpg?1381050883');
 }
 .theatre-sample .oneact {
-  background-image: url('../images/shows/tg.jpg?1381108739');
+  background-image: url('../images/shows/tg.jpg?1381122997');
 }
 .theatre-sample .rochester {
   background-image: url('../images/shows/rochester.jpg?1381050883');
