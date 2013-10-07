@@ -457,6 +457,13 @@ label {
   color: #999999;
 }
 
+.info [rel="slides"]:link, .info [rel="slides"]:visited {
+  color: #ff0080;
+}
+.info [rel="slides"]:hover, .info [rel="slides"]:focus, .info [rel="slides"]:active {
+  color: #0098cc;
+}
+
 .version {
   text-transform: none;
   color: #b2b2b2;

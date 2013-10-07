@@ -5,6 +5,13 @@
   @extend %vertical-center;
 }
 
+.info {
+  [rel="slides"] {
+    #{$link} { color: $accent; }
+    #{$focus} { color: $alt; }
+  }
+}
+
 .version {
   text-transform: none;
   color: color(lighter);
