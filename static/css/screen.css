@@ -247,7 +247,7 @@ a:hover, a:focus, a:active {
   font-style: normal;
 }
 
-.slidehead .head, .topic .topichead {
+.slidehead .head, .topic .topictitle {
   font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -258,7 +258,7 @@ a:hover, a:focus, a:active {
   font-weight: bold;
 }
 
-.topic .topichead {
+.topic .topictitle {
   font-size: 1.6875rem;
   line-height: 1.96875rem;
 }
@@ -280,7 +280,7 @@ label {
   cursor: pointer;
 }
 
-[name="section-toggle"], .toggle-topic {
+[name="section-toggle"], [id='topic1-open'], [id='topic1-done'], [id='topic2-open'], [id='topic2-done'], [id='topic3-open'], [id='topic3-done'], [id='topic4-open'], [id='topic4-done'], [id='topic5-open'], [id='topic5-done'], [id='topic6-open'], [id='topic6-done'], [id='topic7-open'], [id='topic7-done'], [id='topic8-open'], [id='topic8-done'], [id='topic9-open'], [id='topic9-done'] {
   position: absolute;
   top: 0;
   left: 0;
@@ -652,7 +652,7 @@ label {
 }
 
 .pob-photo {
-  background: url('../images/obsolete.jpg?1381089945') no-repeat scroll center;
+  background: url('../images/obsolete.jpg?1381091347') no-repeat scroll center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -697,6 +697,27 @@ label {
 }
 
 .topic {
+  -webkit-flex: 1 1 33%;
+  -ms-flex: 1 1 33%;
+  flex: 1 1 33%;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  position: relative;
+  background: #cceaf4;
+  outline: 3px solid #ff66b2;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.topic .topictitle {
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -705,69 +726,168 @@ label {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  -webkit-flex: 1 1 33%;
-  -ms-flex: 1 1 33%;
-  flex: 1 1 33%;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-  background: #cceaf4;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-}
-.topic .topichead {
   width: 100%;
   text-align: center;
 }
+.topic .topictitle span {
+  display: block;
+  width: 100%;
+}
+
+.topicbody {
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  opacity: 0;
+  position: fixed;
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+  padding: 0.65625rem;
+  background: #fcfcfc;
+  z-index: -1;
+}
+.topicbody .slidehead {
+  width: 100%;
+}
+
+.topic-actions {
+  font-size: 0.78125rem;
+  line-height: 1.3125rem;
+  position: absolute;
+  right: 0.65625rem;
+  top: 0.65625rem;
+}
+.topic-actions [for] {
+  margin-left: 0.32813rem;
+  color: #e5e5e5;
+}
+.topic-actions [for]:hover {
+  color: #ff0080;
+}
+
 .topic:nth-of-type(1) {
   background: #cceaf4;
 }
 .topic:nth-of-type(1):hover {
   background: #66c1e0;
 }
+
+[id='topic1-open']:checked ~ .t1 {
+  background: #66c1e0;
+}
+[id='topic1-open']:checked ~ .t1 .topicbody {
+  border: 6px solid #0098cc;
+}
+
 .topic:nth-of-type(2) {
   background: #ccd2f4;
 }
 .topic:nth-of-type(2):hover {
   background: #6678e0;
 }
+
+[id='topic2-open']:checked ~ .t2 {
+  background: #6678e0;
+}
+[id='topic2-open']:checked ~ .t2 .topicbody {
+  border: 6px solid #001ecc;
+}
+
 .topic:nth-of-type(3) {
   background: #deccf4;
 }
 .topic:nth-of-type(3):hover {
   background: #9d66e0;
 }
+
+[id='topic3-open']:checked ~ .t3 {
+  background: #9d66e0;
+}
+[id='topic3-open']:checked ~ .t3 .topicbody {
+  border: 6px solid #5d00cc;
+}
+
 .topic:nth-of-type(4) {
   background: #f4ccf2;
 }
 .topic:nth-of-type(4):hover {
   background: #e066d9;
 }
+
+[id='topic4-open']:checked ~ .t4 {
+  background: #e066d9;
+}
+[id='topic4-open']:checked ~ .t4 .topicbody {
+  border: 6px solid #cc00c1;
+}
+
 .topic:nth-of-type(5) {
   background: #f4ccda;
 }
 .topic:nth-of-type(5):hover {
   background: #e06690;
 }
+
+[id='topic5-open']:checked ~ .t5 {
+  background: #e06690;
+}
+[id='topic5-open']:checked ~ .t5 .topicbody {
+  border: 6px solid #cc0046;
+}
+
 .topic:nth-of-type(6) {
   background: #f4d6cc;
 }
 .topic:nth-of-type(6):hover {
   background: #e08566;
 }
+
+[id='topic6-open']:checked ~ .t6 {
+  background: #e08566;
+}
+[id='topic6-open']:checked ~ .t6 .topicbody {
+  border: 6px solid #cc3400;
+}
+
 .topic:nth-of-type(7) {
   background: #f4eecc;
 }
 .topic:nth-of-type(7):hover {
   background: #e0ce66;
 }
+
+[id='topic7-open']:checked ~ .t7 {
+  background: #e0ce66;
+}
+[id='topic7-open']:checked ~ .t7 .topicbody {
+  border: 6px solid #ccae00;
+}
+
 .topic:nth-of-type(8) {
   background: #e2f4cc;
 }
 .topic:nth-of-type(8):hover {
   background: #a8e066;
 }
+
+[id='topic8-open']:checked ~ .t8 {
+  background: #a8e066;
+}
+[id='topic8-open']:checked ~ .t8 .topicbody {
+  border: 6px solid #6fcc00;
+}
+
 .topic:nth-of-type(9) {
   background: #ccf4ce;
 }
@@ -775,7 +895,23 @@ label {
   background: #66e06c;
 }
 
-.toggle-topic:checked + .topic {
+[id='topic9-open']:checked ~ .t9 {
+  background: #66e06c;
+}
+[id='topic9-open']:checked ~ .t9 .topicbody {
+  border: 6px solid #00cc0b;
+}
+
+[id='topic1-open']:checked ~ .t1 .topicbody, [id='topic2-open']:checked ~ .t2 .topicbody, [id='topic3-open']:checked ~ .t3 .topicbody, [id='topic4-open']:checked ~ .t4 .topicbody, [id='topic5-open']:checked ~ .t5 .topicbody, [id='topic6-open']:checked ~ .t6 .topicbody, [id='topic7-open']:checked ~ .t7 .topicbody, [id='topic8-open']:checked ~ .t8 .topicbody, [id='topic9-open']:checked ~ .t9 .topicbody {
+  opacity: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 950;
+}
+
+[id='topic1-done']:checked ~ .t1, [id='topic2-done']:checked ~ .t2, [id='topic3-done']:checked ~ .t3, [id='topic4-done']:checked ~ .t4, [id='topic5-done']:checked ~ .t5, [id='topic6-done']:checked ~ .t6, [id='topic7-done']:checked ~ .t7, [id='topic8-done']:checked ~ .t8, [id='topic9-done']:checked ~ .t9 {
   -webkit-box-shadow: inset 0 0 3px rgba(76, 76, 76, 0.25);
   -moz-box-shadow: inset 0 0 3px rgba(76, 76, 76, 0.25);
   box-shadow: inset 0 0 3px rgba(76, 76, 76, 0.25);
@@ -783,10 +919,6 @@ label {
   color: white;
   text-shadow: 0 0 3px rgba(76, 76, 76, 0.25);
 }
-.toggle-topic:checked + .topic:hover {
-  -webkit-transform: scale(1, 1);
-  -moz-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -o-transform: scale(1, 1);
-  transform: scale(1, 1);
+[id='topic1-done']:checked ~ .t1 .topicbody, [id='topic2-done']:checked ~ .t2 .topicbody, [id='topic3-done']:checked ~ .t3 .topicbody, [id='topic4-done']:checked ~ .t4 .topicbody, [id='topic5-done']:checked ~ .t5 .topicbody, [id='topic6-done']:checked ~ .t6 .topicbody, [id='topic7-done']:checked ~ .t7 .topicbody, [id='topic8-done']:checked ~ .t8 .topicbody, [id='topic9-done']:checked ~ .t9 .topicbody {
+  display: none;
 }

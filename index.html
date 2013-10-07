@@ -352,42 +352,161 @@
   <input type="radio" id="topics" name="section-toggle" />
   <section data-toggle="section" class="topics">
 
-    <input type="checkbox" id="topic1" class="toggle-topic">
-    <label class="topic" for="topic1">
-      <h2 class="topichead">Process</h2>
-    </label>
-    <input type="checkbox" id="topic2" class="toggle-topic">
-    <label class="topic" for="topic2">
-      <h2 class="topichead">Testing</h2>
-    </label>
-    <input type="checkbox" id="topic3" class="toggle-topic">
-    <label class="topic" for="topic3">
-      <h2 class="topichead">Media</h2>
-    </label>
-    <input type="checkbox" id="topic4" class="toggle-topic">
-    <label class="topic" for="topic4">
-      <h2 class="topichead">Tools</h2>
-    </label>
-    <input type="checkbox" id="topic5" class="toggle-topic">
-    <label class="topic" for="topic5">
-      <h2 class="topichead">Editing</h2>
-    </label>
-    <input type="checkbox" id="topic6" class="toggle-topic">
-    <label class="topic" for="topic6">
-      <h2 class="topichead">Audience</h2>
-    </label>
-    <input type="checkbox" id="topic7" class="toggle-topic">
-    <label class="topic" for="topic7">
-      <h2 class="topichead">Usability</h2>
-    </label>
-    <input type="checkbox" id="topic8" class="toggle-topic">
-    <label class="topic" for="topic8">
-      <h2 class="topichead">Collaboration</h2>
-    </label>
-    <input type="checkbox" id="topic9" class="toggle-topic">
-    <label class="topic" for="topic9">
-      <h2 class="topichead">Everywhere</h2>
-    </label>
+    <input type="checkbox" id="topic1-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic1-done" class="toggle-topic-done">
+    <div class="topic t1">
+      <label for="topic1-open" class="topictitle"><span>Process</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic1-done" data-icon="checkmark"> </label>
+          <label for="topic1-open" data-icon="close"> </label>
+        </div>
+        <header class="slidehead">
+          <h1 class="head">The <b>Performative Turn</b></h1>
+          <p class="subhead">Seed » Content » <b>Structure</b> » Draft » Revise</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic2-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic2-done" class="toggle-topic-done">
+    <div class="topic t2">
+      <label for="topic2-open" class="topictitle"><span>Testing</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic2-done" data-icon="checkmark"> </label>
+          <label for="topic2-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">The People <b>vs</b> The Art</h1>
+          <p class="subhead">Get outside your head & get to why</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic3-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic3-done" class="toggle-topic-done">
+    <div class="topic t3">
+      <label for="topic3-open" class="topictitle"><span>Media</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic3-done" data-icon="checkmark"> </label>
+          <label for="topic3-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head"><b>The Dao</b> of media</h1>
+          <p class="subhead">Let the performance alter the script</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic4-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic4-done" class="toggle-topic-done">
+    <div class="topic t4">
+      <label for="topic4-open" class="topictitle"><span>Creativity</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic4-done" data-icon="checkmark"> </label>
+          <label for="topic4-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head"><b>Normal tools</b> of thought</h1>
+          <p class="subhead">Copy, Transform, Combine</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic5-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic5-done" class="toggle-topic-done">
+    <div class="topic t5">
+      <label for="topic5-open" class="topictitle"><span>Versioning</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic5-done" data-icon="checkmark"> </label>
+          <label for="topic5-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">Minimum <b>Viable</b> Artwork</h1>
+          <p class="subhead">Modular design & Differential Texts</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic6-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic6-done" class="toggle-topic-done">
+    <div class="topic t6">
+      <label for="topic6-open" class="topictitle"><span>Audience</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic6-done" data-icon="checkmark"> </label>
+          <label for="topic6-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">The whole world is <b>queer</b></h1>
+          <p class="subhead">Multiple tracks, multiple voices</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic7-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic7-done" class="toggle-topic-done">
+    <div class="topic t7">
+      <label for="topic7-open" class="topictitle"><span>Usability</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic7-done" data-icon="checkmark"> </label>
+          <label for="topic7-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">Don't <b>patronize</b> the audience</h1>
+          <p class="subhead">Game design, bootstrapping, & innovation budgets</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic8-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic8-done" class="toggle-topic-done">
+    <div class="topic t8">
+      <label for="topic8-open" class="topictitle"><span>Collaboration</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic8-done" data-icon="checkmark"> </label>
+          <label for="topic8-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">Contribute to the <b>conversation</b></h1>
+          <p class="subhead">copyright, plagiarism, & parallel play</p>
+        </header>
+      </div>
+    </div>
+
+    <input type="checkbox" id="topic9-open" class="toggle-topic-open" name="toggle-topic-open">
+    <input type="checkbox" id="topic9-done" class="toggle-topic-done">
+    <div class="topic t9">
+      <label for="topic9-open" class="topictitle"><span>Elsewhere</span></label>
+      <div class="topicbody">
+        <div class="topic-actions">
+          <label for="topic9-done" data-icon="checkmark"> </label>
+          <label for="topic9-open" data-icon="close"> </label>
+        </div>
+
+        <header class="slidehead">
+          <h1 class="head">Art beyond <b>the canon</b></h1>
+          <p class="subhead">
+            <a href="http://cameronmoll.bigcartel.com/products/">Cameron Moll</a>,
+            <a href="http://chrome.com/maze/">Google Chrome</a>,
+            <a href="http://rachelnabors.com/alice-in-videoland/book/">Rachel Nabors</a>
+          </p>
+        </header>
+      </div>
+    </div>
 
     <nav class="slidenav">
       <label class="prev" for="organism">
