@@ -63,65 +63,28 @@
       <label class="this" for="info">
         <span class="alt-text">this</span>
       </label>
-      <label class="next" for="dev">
+      <label class="next" for="new">
         <span class="alt-text">next</span>
       </label>
     </nav>
   </section>
 
-  <input type="radio" id="dev" name="section-toggle" />
-  <section data-toggle="section" class="dev">
+  <input type="radio" id="new" name="section-toggle" />
+  <section data-toggle="section" class="new">
 
-    <!-- Developer Slide -->
+    <!-- New Title Slide -->
     <div class="slide">
       <header class="slidehead">
-        <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Developer</b></h1>
+        <h1 class="head">Art is <b>for people</b></h1>
+        <p class="subhead"><b>neé</b> "blah blah media arts blah"</p>
       </header>
-
-      <div class="slidebody">
-        <ul class="developer">
-          <li><a href="http://oddbird.net/">OddBird</a></li>
-          <li>
-            <a href="http://compass-style.org/">Compass</a>,
-            <a href="http://susy.oddbird.net/">Susy</a>,
-            <a href="http://eric.andmeyer.com/true/">True</a>...
-          </li>
-          <li><a href="http://provplan.org/">ProvPlan</a></li>
-          <li><a href="http://theknetwork.org/">The K Network</a></li>
-          <li><a href="http://moztrap.mozilla.com/">Mozilla</a></li>
-          <li><a href="http://junyo.com/">Junyo</a></li>
-        </ul>
-      </div>
     </div>
 
     <nav class="slidenav">
       <label class="prev" for="info">
         <span class="alt-text">previous</span>
       </label>
-      <label class="this" for="dev">
-        <span class="alt-text">this</span>
-      </label>
-      <label class="next" for="dev-sample">
-        <span class="alt-text">next</span>
-      </label>
-    </nav>
-  </section>
-
-  <input type="radio" id="dev-sample" name="section-toggle" />
-  <section data-toggle="section" class="dev-sample">
-
-    <!-- Dev Samples Slide -->
-    <ul class="slide samples">
-      <li class="mozilla"></li>
-      <li class="junyo"></li>
-      <li class="susy"></li>
-    </ul>
-
-    <nav class="slidenav">
-      <label class="prev" for="dev">
-        <span class="alt-text">previous</span>
-      </label>
-      <label class="this" for="dev-sample">
+      <label class="this" for="new">
         <span class="alt-text">this</span>
       </label>
       <label class="next" for="art">
@@ -152,7 +115,7 @@
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="dev-sample">
+      <label class="prev" for="new">
         <span class="alt-text">previous</span>
       </label>
       <label class="this" for="art">
@@ -187,6 +150,25 @@
       <label class="this" for="theatre-sample">
         <span class="alt-text">this</span>
       </label>
+      <label class="next" for="ggm-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="ggm-sample" name="section-toggle" />
+  <section data-toggle="section" class="ggm-sample">
+
+    <!-- GGM Sample Slide -->
+    <iframe src="http://greengreenmud.com/" class="ggm sample-frame"></iframe>
+
+    <nav class="slidenav">
+      <label class="prev" for="theatre-sample">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="ggm-sample">
+        <span class="alt-text">this</span>
+      </label>
       <label class="next" for="pob-sample">
         <span class="alt-text">next</span>
       </label>
@@ -200,7 +182,7 @@
     <iframe src="http://eric.andmeyer.com/post-obsolete/" class="pob sample-frame"></iframe>
 
     <nav class="slidenav">
-      <label class="prev" for="theatre-sample">
+      <label class="prev" for="ggm-sample">
         <span class="alt-text">previous</span>
       </label>
       <label class="this" for="pob-sample">
@@ -227,26 +209,6 @@
       <label class="this" for="pob-photo">
         <span class="alt-text">this</span>
       </label>
-      <label class="next" for="ggm-sample">
-        <span class="alt-text">next</span>
-      </label>
-    </nav>
-  </section>
-
-
-  <input type="radio" id="ggm-sample" name="section-toggle" />
-  <section data-toggle="section" class="ggm-sample">
-
-    <!-- GGM Sample Slide -->
-    <iframe src="http://greengreenmud.com/" class="ggm sample-frame"></iframe>
-
-    <nav class="slidenav">
-      <label class="prev" for="pob-sample">
-        <span class="alt-text">previous</span>
-      </label>
-      <label class="this" for="ggm-sample">
-        <span class="alt-text">this</span>
-      </label>
       <label class="next" for="variations-sample">
         <span class="alt-text">next</span>
       </label>
@@ -265,10 +227,71 @@
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="ggm-sample">
+      <label class="prev" for="pob-photo">
         <span class="alt-text">previous</span>
       </label>
       <label class="this" for="variations-sample">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="dev">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="dev" name="section-toggle" />
+  <section data-toggle="section" class="dev">
+
+    <!-- Developer Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head">Eric<b class="amp">&</b>Meyer <b>Developer</b></h1>
+      </header>
+
+      <div class="slidebody">
+        <ul class="developer">
+          <li><a href="http://oddbird.net/">OddBird</a></li>
+          <li>
+            <a href="http://compass-style.org/">Compass</a>,
+            <a href="http://susy.oddbird.net/">Susy</a>,
+            <a href="http://eric.andmeyer.com/true/">True</a>...
+          </li>
+          <li><a href="http://provplan.org/">ProvPlan</a></li>
+          <li><a href="http://theknetwork.org/">The K Network</a></li>
+          <li><a href="http://moztrap.mozilla.com/">Mozilla</a></li>
+          <li><a href="http://junyo.com/">Junyo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="variations-sample">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="dev">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="dev-sample">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="dev-sample" name="section-toggle" />
+  <section data-toggle="section" class="dev-sample">
+
+    <!-- Dev Samples Slide -->
+    <ul class="slide samples">
+      <li class="mozilla"></li>
+      <li class="junyo"></li>
+      <li class="susy"></li>
+    </ul>
+
+    <nav class="slidenav">
+      <label class="prev" for="dev">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="dev-sample">
         <span class="alt-text">this</span>
       </label>
       <label class="next" for="ux">
@@ -284,15 +307,39 @@
     <div class="slide">
       <header class="slidehead">
         <h1 class="head">User <b>Experience</b> Designer</h1>
-        <p class="subhead">Idea » Experience » Audience</p>
+        <p class="subhead">Creative Vision » Medium » Audience Experience</p>
       </header>
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="variations-sample">
+      <label class="prev" for="dev-sample">
         <span class="alt-text">previous</span>
       </label>
       <label class="this" for="ux">
+        <span class="alt-text">this</span>
+      </label>
+      <label class="next" for="no">
+        <span class="alt-text">next</span>
+      </label>
+    </nav>
+  </section>
+
+  <input type="radio" id="no" name="section-toggle" />
+  <section data-toggle="section" class="no">
+
+    <!-- People Slide -->
+    <div class="slide">
+      <header class="slidehead">
+        <h1 class="head">No one wants your <b>media arts</b></h1>
+        <p class="subhead">And that's a good thing</p>
+      </header>
+    </div>
+
+    <nav class="slidenav">
+      <label class="prev" for="ux">
+        <span class="alt-text">previous</span>
+      </label>
+      <label class="this" for="no">
         <span class="alt-text">this</span>
       </label>
       <label class="next" for="people">
@@ -308,12 +355,12 @@
     <div class="slide">
       <header class="slidehead">
         <h1 class="head">Art is <b>for people</b></h1>
-        <p class="subhead">Don't hide behind theory.</p>
+        <p class="subhead">Naval-gazing is boring</p>
       </header>
     </div>
 
     <nav class="slidenav">
-      <label class="prev" for="ux">
+      <label class="prev" for="no">
         <span class="alt-text">previous</span>
       </label>
       <label class="this" for="people">
@@ -332,7 +379,7 @@
     <div class="slide">
       <header class="slidehead">
         <h1 class="head">Art is a <b>growing organism</b></h1>
-        <p class="subhead">Don't trust the medium.</p>
+        <p class="subhead">Your medium won't protect you</p>
       </header>
     </div>
 

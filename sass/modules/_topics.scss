@@ -34,6 +34,9 @@
   @include transition(all 200ms);
   @include display-flex;
   @include align-items(center);
+  @include justify-content(center);
+  @include background(image-url('rainish.svg') no-repeat scroll center);
+  @include background-size(300%);
   opacity: 0;
   position: fixed;
   top: 25%;
@@ -41,9 +44,12 @@
   bottom: 25%;
   left: 25%;
   padding: rhythm(.5);
-  background: color(98%);
+  background-color: color(98%);
   z-index: -1;
-  .slidehead { width: 100%; }
+  .slidehead {
+    padding: rhythm(.5);
+    background: color(white,.9);
+  }
 }
 
 .topic-actions {

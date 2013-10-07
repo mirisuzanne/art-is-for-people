@@ -1,12 +1,13 @@
 // Title Slide
 // ===========
 
-.info {
+.info, .new {
   @extend %vertical-center;
-  .version {
-    text-transform: none;
-    color: color(lighter);
-  }
+}
+
+.version {
+  text-transform: none;
+  color: color(lighter);
 }
 
 .vcard {
